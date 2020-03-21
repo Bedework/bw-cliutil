@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.bedework</groupId>
   <artifactId>bw-cliutil</artifactId>
-  <version>4.1.0-SNAPSHOT</version>
+  <version>4.1.0</version>
   <packaging>pom</packaging>
   <name>bw-cliutil</name>
   <description>This project provides a number of utility classes and methods used for clis</description>
@@ -40,7 +40,7 @@
     <connection>scm:git:git@github.com:Bedework/bw-cliutil.git</connection>
     <developerConnection>scm:git:git@github.com:Bedework/bw-cliutil.git</developerConnection>
     <url>https://github.com/Bedework/bw-cliutil</url>
-    <tag>bw-util-4.0.9</tag>
+    <tag>bw-cliutil-4.1.0</tag>
   </scm>
 
   <issueManagement>
