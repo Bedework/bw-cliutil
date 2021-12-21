@@ -14,6 +14,13 @@
   <description>This project provides a number of utility classes and methods used for CLIs</description>
   <url>https://github.com/Bedework/bw-cliutil</url>
 
+  <scm>
+    <connection>scm:git:git@github.com:Bedework/bw-cliutil.git</connection>
+    <developerConnection>scm:git:git@github.com:Bedework/bw-cliutil.git</developerConnection>
+    <url>https://github.com/Bedework/bw-cliutil</url>
+    <tag>bw-util-4.0.9</tag>
+  </scm>
+
   <modules>
     <module>bw-util-cli</module>
     <module>bw-util-jolokia</module>
