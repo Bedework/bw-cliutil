@@ -313,6 +313,30 @@ public abstract class Cli {
     return null;
   }
 
+  public boolean nextIs(final String testFor) throws Throwable {
+    final int tkn = nextToken(testFor);
+
+    if (tkn == StreamTokenizer.TT_EOF) {
+      return false;
+    }
+
+    if ((tkn != StreamTokenizer.TT_WORD) ||
+        !tokenizer.sval.equals(testFor)) {
+      pushback();
+      return false;
+    }
+
+    return true;
+  }
+
+  public String optionalKeyString(final String key) throws Throwable {
+    if (!nextIs(key)) {
+      return null;
+    }
+
+    return string(key);
+  }
+
   public Double number(final String tr) throws Throwable {
     final int tkn = nextToken(tr);
 
