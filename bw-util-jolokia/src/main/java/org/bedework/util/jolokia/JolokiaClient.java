@@ -231,7 +231,7 @@ public class JolokiaClient implements Logged {
         }
       } while (curSecs < waitSeconds);
 
-      error("Timedout waiting for completion");
+      //error("Timedout waiting for completion");
       return ConfBase.statusTimedout;
     } catch (final Throwable t) {
       error(t);
