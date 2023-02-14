@@ -127,7 +127,8 @@ public class JolokiaClient implements Logged {
                            final Object... args) throws Throwable {
     final J4pExecRequest execRequest =
             new J4pExecRequest(objectName, operation, args);
-    final J4pResponse response = getClient().execute(execRequest);
+    final J4pResponse<J4pExecRequest> response =
+            getClient().execute(execRequest);
     return (String)response.getValue();
   }
 
