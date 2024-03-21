@@ -40,7 +40,7 @@ For full details, see [Sonatype's documentation for using Maven to publish relea
 * Pass class loader as parameter when creating new objects. JMX interactions were failing
 * Use bedework-parent for builds.
 
-### 5.0.0
+### 5.0.1
 * Update library versions 
 * Message changes
 
