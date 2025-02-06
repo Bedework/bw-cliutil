@@ -8,7 +8,7 @@
   </parent>
 
   <artifactId>bw-cliutil</artifactId>
-  <version>5.0.2-SNAPSHOT</version>
+  <version>5.0.2</version>
   <packaging>pom</packaging>
   <name>Bedework cliutil: utility CLI classes</name>
   <description>This project provides a number of utility classes and methods used for CLIs</description>
