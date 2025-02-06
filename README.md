@@ -44,4 +44,8 @@ For full details, see [Sonatype's documentation for using Maven to publish relea
 * Update library versions 
 * Message changes
 
+### 5.0.2
+* Update library versions 
+* Pre-jakarta
+
 
