@@ -5,7 +5,7 @@ package org.bedework.util.cli;
 
 import org.bedework.util.misc.Util;
 
-import org.apache.commons.lang.WordUtils;
+import org.apache.commons.lang3.text.WordUtils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
